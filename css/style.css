@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #222;
+  padding: 50px;
+}
+
+body > * {
+  background: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px;
+
+  background: white;
+}
+
+#destinations,
+#actions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#actions button {
+  border: none;
+  border-radius: 8px;
+
+  padding: 12px 18px;
+
+  background: #ea4c89;
+  color: white;
+}
+
+#hero {
+  background: black;
+
+  color: white;
+
+  height: 700px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 60px;
+
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 60px;
+
+  width: 700px;
+}
+
+#hero h2 {
+  font-size: 22px;
+}
+
+#hero input {
+  width: 600px;
+  padding: 25px;
+  border-radius: 50px;
+  border: none;
+}
+
+#trending {
+  display: flex;
+
+  align-items: center;
+  gap: 15px;
+}
+
+#trending p {
+  background: white;
+  color: black;
+  border-radius: 40px;
+  padding: 10px 18px;
+}
+
+#subnav {
+  background: white;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 40px 70px;
+}
+
+#subnav button {
+  border-radius: 10px;
+  background: white;
+  padding: 12px 20px;
+}
+
+main {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 80px;
+}
+
+.card {
+  width: 350px;
+}
+
+.img-placeholder {
+  height: 350px;
+  background: gray;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
